@@ -7,12 +7,12 @@ rhel8STIG_stigrule_230226__etc_dconf_db_local_d_01_banner_message_Value: 'The EC
 -By continuing the logon process you acknowledge to have read, understood and agreed to abide by the ECU Acceptable Use of Information Systems Policy.
 -Note: All access is logged and may be monitored.'
 # R-230227 RHEL-08-010060
-rhel8STIG_stigrule_230227_Manage: Flase
+rhel8STIG_stigrule_230227_Manage: False
 rhel8STIG_stigrule_230227__etc_issue_Dest: /etc/issue
 rhel8STIG_stigrule_230227__etc_issue_Content: 'ECU’s Computing Facilities and Information Systems - Conditions of Use
 # R-230228 RHEL-08-010070
-rhel8STIG_stigrule_230228_Manage: False
-rhel8STIG_stigrule_230228__etc_rsyslog_conf_Line: 'auth.*;authpriv.*;daemon.* /var/log/secure'
+# rhel8STIG_stigrule_230228_Manage: False
+# rhel8STIG_stigrule_230228__etc_rsyslog_conf_Line: 'auth.*;authpriv.*;daemon.* /var/log/secure'
 # R-230231 RHEL-08-010110
 rhel8STIG_stigrule_230231_Manage: True
 rhel8STIG_stigrule_230231__etc_login_defs_Line: 'ENCRYPT_METHOD SHA512'
