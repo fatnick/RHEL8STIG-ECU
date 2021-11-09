@@ -2,7 +2,7 @@
 rhel8STIG_stigrule_230225_Manage: false
 rhel8STIG_stigrule_230225_banner_Line: banner /etc/issue
 # R-230226 RHEL-08-010050
-rhel8STIG_stigrule_230226_Manage: false
+rhel8STIG_stigrule_230226_Manage: False
 rhel8STIG_stigrule_230226__etc_dconf_db_local_d_01_banner_message_Value: 'The ECU computer information systems network and equipment is provided for use by authorised personnel only.
 -By continuing the logon process you acknowledge to have read, understood and agreed to abide by the ECU Acceptable Use of Information Systems Policy.
 -Note: All access is logged and may be monitored.'
@@ -11,7 +11,7 @@ rhel8STIG_stigrule_230227_Manage: false
 rhel8STIG_stigrule_230227__etc_issue_Dest: /etc/issue
 rhel8STIG_stigrule_230227__etc_issue_Content: 'ECU’s Computing Facilities and Information Systems - Conditions of Use
 # R-230228 RHEL-08-010070
-rhel8STIG_stigrule_230228_Manage: True
+rhel8STIG_stigrule_230228_Manage: False
 rhel8STIG_stigrule_230228__etc_rsyslog_conf_Line: 'auth.*;authpriv.*;daemon.* /var/log/secure'
 # R-230231 RHEL-08-010110
 rhel8STIG_stigrule_230231_Manage: True
@@ -23,7 +23,7 @@ rhel8STIG_stigrule_230236__usr_lib_systemd_system_rescue_service_Value: '-/usr/l
 rhel8STIG_stigrule_230239_Manage: True
 rhel8STIG_stigrule_230239_krb5_workstation_State: removed
 # R-230240 RHEL-08-010170
-rhel8STIG_stigrule_230240_Manage: false
+rhel8STIG_stigrule_230240_Manage: False
 rhel8STIG_stigrule_230240__etc_selinux_config_Line: 'SELINUX=enforcing'
 # R-230241 RHEL-08-010171
 rhel8STIG_stigrule_230241_Manage: True
@@ -38,7 +38,7 @@ rhel8STIG_stigrule_230252__etc_sysconfig_sshd_Line: '# CRYPTO_POLICY='
 rhel8STIG_stigrule_230255_Manage: True
 rhel8STIG_stigrule_230255__etc_crypto_policies_back_ends_opensslcnf_config_Line: 'MinProtocol = TLSv1.2'
 # R-230256 RHEL-08-010295
-rhel8STIG_stigrule_230256_Manage: false
+rhel8STIG_stigrule_230256_Manage: True
 rhel8STIG_stigrule_230256__etc_crypto_policies_back_ends_opensslcnf_config_Line: '+VERS-ALL:-VERS-DTLS0.9:-VERS-SSL3.0:-VERS-TLS1.0:-VERS-TLS1.1:-VERS-DTLS1.0'
 # R-230265 RHEL-08-010371
 rhel8STIG_stigrule_230265_Manage: True
@@ -72,14 +72,14 @@ rhel8STIG_stigrule_230280__etc_sysctl_d_99_sysctl_conf_Line: 'kernel.randomize_v
 rhel8STIG_stigrule_230281_Manage: True
 rhel8STIG_stigrule_230281__etc_dnf_dnf_conf_Value: 'True'
 # R-230282 RHEL-08-010450
-rhel8STIG_stigrule_230282_Manage: True
+rhel8STIG_stigrule_230282_Manage: false
 rhel8STIG_stigrule_230282__etc_selinux_config_Line: 'SELINUXTYPE=targeted'
 # R-230285 RHEL-08-010471
 rhel8STIG_stigrule_230285_Manage: True
 rhel8STIG_stigrule_230285_rngd_enable_Enabled: yes
 rhel8STIG_stigrule_230285_rngd_start_State: started
 # R-230288 RHEL-08-010500
-rhel8STIG_stigrule_230288_Manage: True
+rhel8STIG_stigrule_230288_Manage: false
 rhel8STIG_stigrule_230288_StrictModes_Line: StrictModes yes
 # R-230289 RHEL-08-010510
 rhel8STIG_stigrule_230289_Manage: True
@@ -505,13 +505,13 @@ rhel8STIG_stigrule_230482__etc_rsyslog_conf_DefaultNetstreamDriver_Line: '$Actio
 rhel8STIG_stigrule_230483_Manage: True
 rhel8STIG_stigrule_230483__etc_audit_auditd_conf_space_left_Line: 'space_left = 25%'
 # R-230487 RHEL-08-040000
-rhel8STIG_stigrule_230487_Manage: True
+rhel8STIG_stigrule_230487_Manage: false
 rhel8STIG_stigrule_230487_telnet_server_State: removed
 # R-230488 RHEL-08-040001
 rhel8STIG_stigrule_230488_Manage: True
 rhel8STIG_stigrule_230488_abrt__State: removed
 # R-230489 RHEL-08-040002
-rhel8STIG_stigrule_230489_Manage: True
+rhel8STIG_stigrule_230489_Manage: false
 rhel8STIG_stigrule_230489_sendmail_State: removed
 # R-230492 RHEL-08-040010
 rhel8STIG_stigrule_230492_Manage: True
@@ -609,7 +609,7 @@ rhel8STIG_stigrule_230560_iprutils_State: removed
 rhel8STIG_stigrule_230561_Manage: True
 rhel8STIG_stigrule_230561_tuned_State: removed
 # R-244519 RHEL-08-010049
-rhel8STIG_stigrule_244519_Manage: True
+rhel8STIG_stigrule_244519_Manage: false
 rhel8STIG_stigrule_244519__etc_dconf_db_local_d_01_banner_message_Value: 'true'
 # R-244523 RHEL-08-010152
 rhel8STIG_stigrule_244523_Manage: True
