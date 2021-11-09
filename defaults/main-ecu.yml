@@ -1,13 +1,13 @@
 # R-230225 RHEL-08-010040
-rhel8STIG_stigrule_230225_Manage: True
+rhel8STIG_stigrule_230225_Manage: false
 rhel8STIG_stigrule_230225_banner_Line: banner /etc/issue
 # R-230226 RHEL-08-010050
-rhel8STIG_stigrule_230226_Manage: True
+rhel8STIG_stigrule_230226_Manage: false
 rhel8STIG_stigrule_230226__etc_dconf_db_local_d_01_banner_message_Value: 'The ECU computer information systems network and equipment is provided for use by authorised personnel only.
 -By continuing the logon process you acknowledge to have read, understood and agreed to abide by the ECU Acceptable Use of Information Systems Policy.
 -Note: All access is logged and may be monitored.'
 # R-230227 RHEL-08-010060
-rhel8STIG_stigrule_230227_Manage: True
+rhel8STIG_stigrule_230227_Manage: false
 rhel8STIG_stigrule_230227__etc_issue_Dest: /etc/issue
 rhel8STIG_stigrule_230227__etc_issue_Content: 'ECU’s Computing Facilities and Information Systems - Conditions of Use
 # R-230228 RHEL-08-010070
@@ -23,7 +23,7 @@ rhel8STIG_stigrule_230236__usr_lib_systemd_system_rescue_service_Value: '-/usr/l
 rhel8STIG_stigrule_230239_Manage: True
 rhel8STIG_stigrule_230239_krb5_workstation_State: removed
 # R-230240 RHEL-08-010170
-rhel8STIG_stigrule_230240_Manage: True
+rhel8STIG_stigrule_230240_Manage: false
 rhel8STIG_stigrule_230240__etc_selinux_config_Line: 'SELINUX=enforcing'
 # R-230241 RHEL-08-010171
 rhel8STIG_stigrule_230241_Manage: True
@@ -38,7 +38,7 @@ rhel8STIG_stigrule_230252__etc_sysconfig_sshd_Line: '# CRYPTO_POLICY='
 rhel8STIG_stigrule_230255_Manage: True
 rhel8STIG_stigrule_230255__etc_crypto_policies_back_ends_opensslcnf_config_Line: 'MinProtocol = TLSv1.2'
 # R-230256 RHEL-08-010295
-rhel8STIG_stigrule_230256_Manage: True
+rhel8STIG_stigrule_230256_Manage: false
 rhel8STIG_stigrule_230256__etc_crypto_policies_back_ends_opensslcnf_config_Line: '+VERS-ALL:-VERS-DTLS0.9:-VERS-SSL3.0:-VERS-TLS1.0:-VERS-TLS1.1:-VERS-DTLS1.0'
 # R-230265 RHEL-08-010371
 rhel8STIG_stigrule_230265_Manage: True
